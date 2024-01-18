@@ -43,6 +43,8 @@ For the "Helpful Answers" section, I limited myself to using Bootstrap 4.6. When
 
 The footer has a background to match the style of the banner. I kept the order of all the elements because it seems to be a general style for most banners. I replaced the two large buttons at the top with one that provides easier access to the source code and the Figma prototype.
 
+Also, added a what i call "Gravity effect" to the main logo,  it's nice. You can hover it and the main header's logo will follow your mouse. It's the only thing i added using Vanilla Javascript because i love that effect. Hope You Like it!
+
 I hope you like my proposal, and I'm available for any questions!
 
 
