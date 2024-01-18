@@ -25,7 +25,7 @@ accordion. It should be fully functional.
 
 //What do you find good/bad in the mock up? What would you improve? What would you change?----------------------------------------------------------
 
-First, I think the mockup that was sent to me had very low quality regarding the image. So, I decided to create the mockup again in Figma to make it easier to trace. You can find it at: Figma Mockup Link.
+First, I think the mockup that was sent to me had very low quality regarding the image. So, I decided to create the mockup again in Figma to make it easier to trace. You can find it at: [Figma Mockup Link.](https://www.figma.com/file/nDkxLR83lBmQ2krWkQZrFt/Untitled?type=design&node-id=0%3A1&mode=design&t=t1ZKDkXrSBTh6GF9-1)
 
 Beyond that, I believe the banner section was fine. I just added some colors and animations to highlight the important buttons, such as the "Buy Now" or the "Get Started" button. I also added a subtle background to the main section to add dynamism to the site, along with animations for the buttons and cards, which may not be essential but provide good support for UX.
 
