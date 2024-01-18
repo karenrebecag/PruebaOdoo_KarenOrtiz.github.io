@@ -1,0 +1,258 @@
+/* Banner */
+.main-banner {
+background-color: #007bfff2; 
+padding: 6%;
+color: white;
+font-family: 'Poppins', sans-serif;
+
+}
+.ul-logos {
+list-style-type: none; 
+padding: 0;
+}
+
+.li-logos {
+display: inline; 
+margin-right: 10px; 
+}
+
+/* Background Video */
+#MainBanner {
+    position: relative;
+    overflow: hidden;
+    height: 79vh; 
+  }
+  
+  #MainBanner video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+    z-index: -1;
+  }
+  
+  #MainBanner .container-fluid {
+    position: relative;
+    z-index: 1;
+  }
+  
+  #MainBanner .row {
+    position: relative;
+    z-index: 2;
+  }
+
+/* Card */
+.flip-card_banner {
+background-color: transparent;
+width: 360px;
+height: 210px;
+perspective: 1000px;
+color: white;
+}
+
+.heading_8264_banner {
+position: absolute;
+letter-spacing: .2em;
+font-size: 0.8em;
+top: 8em;
+left: 2em;
+}
+
+.logo_banner {
+position: absolute;
+top: 0.8em;
+left: 1em;
+}
+
+.chip_banner {
+position: absolute;
+top: 7.3em;
+left: 26em;
+}
+
+.contactless_banner {
+position: absolute;
+top: 3.5em;
+left: 12.4em;
+}
+.active-card{
+position: absolute;
+font-weight: bold;
+font-size: 1.1em;
+top: 1.5em;
+right: 1.3em;
+border-radius: 0.2em;
+background-color: #6DBDAD ;
+}
+
+.number_banner {
+position: absolute;
+font-weight: bold;
+font-size: 1.4em;
+top: 5.5em;
+left: 1em;
+}
+
+.name_banner {
+position: absolute;
+font-weight: bold;
+font-size: 0.8em;
+top: 13em;
+left: 1.9em;
+}
+
+.john-snow {
+position: absolute;
+font-weight: bold;
+font-size: 1.2em;
+top: 9.9em;
+left: 1.2em;
+}
+
+.date-banner {
+position: absolute;
+font-weight: bold;
+font-size: 0.8em;
+top: 13em;
+right: 17.3em;
+}
+
+.expiry-date {
+position: absolute;
+font-weight: bold;
+font-size: 1.2em;
+top: 9.9em;
+right: 13em;
+}
+
+.strip_banner {
+position: absolute;
+background-color: black;
+width: 15em;
+height: 1.5em;
+top: 2.4em;
+background: repeating-linear-gradient(
+45deg,
+#aeaeae,
+#6a6a6a 10px,
+#545454 10px,
+#656565 20px
+);
+}
+
+.mstrip_banner {
+position: absolute;
+background-color: rgb(255, 255, 255);
+width: 8em;
+height: 0.8em;
+top: 5em;
+left: .8em;
+border-radius: 2.5px;
+}
+
+.sstrip_banner {
+position: absolute;
+background-color: rgb(255, 255, 255);
+width: 4.1em;
+height: 0.8em;
+top: 5em;
+left: 10em;
+border-radius: 2.5px;
+}
+.card-logo{
+position: absolute;
+top: 9.8em;
+left: 14em;
+height: 1.3em;
+}
+.code_banner {
+font-weight: bold;
+text-align: center;
+margin: .2em;
+color: black;
+}
+
+.flip-card-inner_banner {
+position: relative;
+width: 100%;
+height: 100%;
+text-align: center;
+transition: transform 0.8s;
+transform-style: preserve-3d;
+}
+
+.flip-card_banner:hover .flip-card-inner_banner {
+transform: rotateY(180deg);
+}
+
+.flip-card-front_banner, .flip-card-back_banner {
+box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+position: absolute;
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 100%;
+height: 100%;
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+border-radius: 1rem;
+}
+
+.flip-card-front_banner {
+box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 2px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -1px 0px inset;
+background-color: #1E1246;
+}
+
+.flip-card-back_banner {
+box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 2px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -1px 0px inset;
+background-color: #1E1246;
+transform: rotateY(180deg);
+}
+
+@media screen and (max-width: 1850px){
+    #MainBanner {
+
+        height: 73vh; 
+      
+    }
+
+
+@media screen and (max-width: 1750px){
+    .chip_banner{
+      display: none;
+    }
+
+    @media screen and (max-width: 1400px){
+        #MainBanner {
+    
+            height: 63vh; 
+          
+        }
+        @media screen and (max-width: 767px){
+            #MainBanner {
+    
+                height: 45vh;
+              
+            }
+            .container-card{
+                display: none;
+            }
+            .logo_banner {
+              position: absolute;
+              top: 0.8em;
+              left: 2em;
+
+            }
+
+            @media screen and (max-width:430px){
+              .logo_banner {
+                position: absolute;
+                top: 0.8em;
+                left: em;
+  
+              }
+              
+            }}}}}

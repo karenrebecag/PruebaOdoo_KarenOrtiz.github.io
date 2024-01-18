@@ -1,0 +1,30 @@
+
+/* Accordion */
+.card {
+  background-color: white; 
+  border-radius: 10px; 
+  width: 40em;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
+  margin-bottom: 20px; 
+}
+
+
+.card-header {
+  background-color: white; 
+  border-radius: 10px; 
+  color: black; 
+  width: 40em;
+
+}
+
+
+.card-body {
+  background-color: white; 
+  width: 50em;
+
+}
+
+.btn-link {
+  color: black; 
+}
+

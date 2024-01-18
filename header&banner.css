@@ -1,0 +1,483 @@
+/*----------------------------------------------------------General Hover Effects  */
+p{
+  font-family: 'Poppins', sans-serif;
+font-size: 14px;
+}
+
+.poppins{
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.hoverEffect {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+
+}
+.hoverEffect:hover {
+  transform: scale(1.02); 
+
+}
+
+.hoverEffectBigger {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+
+}
+.hoverEffectBigger:hover {
+  transform: scale(1.03); 
+
+}
+
+#Gravity_Effect {
+  
+  transition: transform 0.1s;
+}
+
+
+
+/*----------------------------------------------------------Navbar Styles   */
+
+.navbar-collapse{
+justify-content: space-between;
+align-items: center;
+height: 90px;
+}
+
+.nav-link{
+color: white;
+font-family: 'Poppins', sans-serif;
+font-size: 1.2rem;
+    
+}
+.navbar-toggler {
+border-color: rgb(255, 255, 255);
+}
+.navbar-toggler.icon {
+  color:  rgb(255, 255, 255);
+
+}
+.logo_nav{
+margin-top: 40px;
+width: 110;
+}   
+.logo{
+  margin-top: 40px;
+  width: 110;
+}
+/* Botones de la derecha  */
+.btn{
+font-family: 'Poppins', sans-serif;
+font-size: 1.2rem;
+}
+.btn-light{
+font-family: 'Poppins', sans-serif;
+font-size: 1rem;
+margin-bottom: 3px;
+    
+}
+/* Linea blanca debajo del header  */
+.linea-blanca {
+border: none;
+height: 1px; 
+background-color: white;
+width: 55%; 
+opacity: 0.3;
+}  
+.linea-gris {
+  border: none;
+  height: 1px; 
+  background-color: rgba(128, 128, 128, 0.559);
+  width: 85%; 
+  opacity: 0.3;
+  }  
+
+
+  /*  Botón de Carrito */ 
+
+  .CartBtn_cart {
+    width: 140px;
+    height: 30px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(255, 208, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition-duration: .5s;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.103);
+    position: relative;
+  }
+  
+  .IconContainer_cart {
+    position: absolute;
+    left: -50px;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 2;
+    transition-duration: .5s;
+  }
+  
+  .icon_cart {
+    border-radius: 1px;
+  }
+  
+  .text_cart {
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    margin-top: 0.9em;
+    color: rgb(17, 17, 17);
+    z-index: 1;
+    transition-duration: .5s;
+    font-size: 1.04em;
+    font-weight: 600;
+  }
+  
+  .CartBtn_cart:hover .IconContainer_cart {
+    transform: translateX(58px);
+    border-radius: 40px;
+    transition-duration: .5s;
+  }
+  
+  .CartBtn_cart:hover .text_cart {
+    transform: translate(10px,0px);
+    transition-duration: .5s;
+  }
+  
+  .CartBtn_cart:active {
+    transform: scale(0.95);
+    transition-duration: .5s;
+  }
+  
+
+    
+
+
+  /* === Botón1 Degradado "Get Started" ============================================================*/
+.button {
+  margin: 0;
+  height: auto;
+  background: transparent;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+.button-start {
+  text-decoration: none;
+  position: relative;
+  border: none;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  color: #fff;
+  width: 9em;
+  height: 3em;
+  line-height: 2em;
+  text-align: center;
+  background: linear-gradient(90deg, #0a73eb, #ade2d1, #51b098, #d6f1e7);
+  background-size: 300%;
+  border-radius: 30px;
+  z-index: 1;
+  transition: transform 0.3s ease; 
+
+}
+
+.button-start:hover {
+  animation: ani 8s linear infinite;
+  border: none;
+  transform: scale(1.06); 
+
+}
+
+@keyframes ani {
+  0% {
+    background-position: 0%;
+  }
+
+  100% {
+    background-position: 400%;
+  }
+}
+
+.button-start:before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;
+  background: linear-gradient(90deg, #0a73eb, #50c7ff, #51b098, #ade2d1);
+  background-size: 400%;
+  border-radius: 35px;
+  transition: 1s;
+}
+
+.button-start:hover::before {
+  filter: blur(20px);
+}
+
+.button-start:active {
+  background: linear-gradient(32deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+}
+/*----------------------------------------------------------Tarjeta Mastercard Styles   */
+
+  .container-card{
+    background-color: white;
+    height: 560px;
+    color: black;
+ 
+    border-radius: 20px 20px 150px 20px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+  }
+  .card2 {
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+    height: 250px;
+    border-radius: 20px;
+  }
+  .containerCardup {
+    height: 10px;
+  }
+  .quicksand{
+    font-family: 'Quicksand';
+
+  }
+
+  /* === Botón2 "Add New" (El de la parte superior derecha de la tarjeta mastercard) ============================================================*/
+  .buttonAddNew {
+    
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #6DBDAD;
+    transition: all 1000ms;
+    font-size: 10px;
+    position: relative;
+    overflow: hidden;
+    outline: 2px solid #2c9caf;
+  }
+  
+  .buttonAddNew:hover {
+    color: #ffffff;
+    transform: scale(1.1);
+    outline: 2px solid #6DBDAD;
+    box-shadow: 4px 5px 17px -4px #268391;
+  }
+  
+  .buttonAddNew::before {
+    content: "";
+    position: absolute;
+    left: -50px;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #2c9caf;
+    transform: skewX(45deg);
+    z-index: -1;
+    transition: width 1000ms;
+  }
+  
+  .buttonAddNew:hover::before {
+    width: 250%;
+  }
+
+    /* === Botón3 "View All" ============================================================*/
+
+  .viewAll {
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .viewAll span {
+    padding-bottom: 7px;
+    letter-spacing: 4px;
+    font-size: 14px;
+    padding-right: 15px;
+    text-transform: uppercase;
+  }
+  
+  .viewAll svg {
+    transform: translateX(-8px);
+    transition: all 0.3s ease;
+  }
+  
+  .viewAll:hover svg {
+    transform: translateX(0);
+  }
+  
+  .viewAll:active svg {
+    transform: scale(0.9);
+  }
+  
+  .hover-underline-animation {
+    position: relative;
+    color: #007bff;
+    padding-bottom: 20px;
+  }
+  
+  .hover-underline-animation:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #007bff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .viewAll:hover .hover-underline-animation:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  
+
+
+  .section-diagonal {
+    background-color: #fcfeff; 
+  }
+  
+  .diagonal-split {
+    position: relative;
+    height: 50px; 
+    background-color: #007bff; 
+  }
+  
+  .diagonal-split::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff; 
+    clip-path: polygon(100% 0, 0 100%, 100% 150%);
+}
+  
+/* Triangulo Awards */
+
+.section-diagona2 {
+  background-color: #fcfeff; 
+}
+
+.diagonal-split2 {
+  position: relative;
+  height: 50px; 
+  background-color: #f8f9fa; 
+}
+
+.diagonal-split2::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff; 
+  clip-path: polygon(100% 0, 0 100%, 100% 150%);
+}
+
+/* Triángulo Separador de Seccion entre el banner y tools */
+.section-diagona3 {
+  background-color: #fcfeff; 
+}
+
+.diagonal-split3 {
+  position: relative;
+  height: 50px; 
+  background-color: #fff; 
+}
+
+.diagonal-split3::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #121440; 
+  clip-path: polygon(100% 0, 0 100%, 100% 150%);
+}
+
+/* Responsivo */
+
+
+@media screen and (max-width: 1200px){
+  .position-absolute{
+    display: none;
+  }
+
+  @media screen and (max-width: 992px){
+    .imagen-dos {
+      width: 110%;
+      height: 80%;
+
+    
+    }
+
+@media screen and (max-width: 767px){
+  .badge-warning{
+   margin-top: 10%;}
+    .logo{
+        width: 80;
+        text-align: center;
+}
+.imagen-dos{
+  display: none;
+}
+.text-white{
+  font-size: 12px;
+}
+
+#cards_interactive{
+  display: none;
+}
+
+.imagen-dos {
+  width: 65%;
+  height: 80%;
+  margin-top: 10%;
+
+}
+.btn{
+  position: relative;
+  left: 40em;
+}
+.CartBtn_cart{
+  position: relative;
+  left: 42em;
+}
+
+.logo_nav{
+  position: relative;
+  right: 47rem;
+  top: 10em;
+}
+
+}}
+/*  */
+
+
+
+}
+
+    

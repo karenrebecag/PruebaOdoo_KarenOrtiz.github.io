@@ -1,0 +1,330 @@
+/* Person */
+.card.person-3 {
+    width: 190px;
+    background: white;
+    padding: .4em;
+    border-radius: 6px;
+  }
+  
+  .card-image.person-3 {
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+    height: 130px;
+    border-radius: 6px 6px 0 0;
+  }
+  
+  .card-image.person-3:hover {
+    transform: scale(0.98);
+  }
+  
+  .category.person-3 {
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: 600;
+    color: rgb(63, 121, 230);
+    padding: 10px 7px 0;
+  }
+  
+  .category.person-3:hover {
+    cursor: pointer;
+  }
+  
+  .heading.person-3 {
+    font-weight: 600;
+    color: rgb(88, 87, 87);
+    padding: 7px;
+  }
+  
+  .heading.person-3:hover {
+    cursor: pointer;
+  }
+  
+  .author.person-3 {
+    color: gray;
+    font-weight: 400;
+    font-size: 11px;
+    padding-top: 20px;
+  }
+  
+  .name.person-3 {
+    font-weight: 600;
+  }
+  
+  .name.person-3:hover {
+    cursor: pointer;
+  }
+
+
+  /* Website UI Kit */
+
+  
+
+.card_websiteUI {
+    width: 200px;
+    height: 250px;
+    background: #ffffff;
+    padding: 2rem 1.5rem;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: box-shadow .3s ease, transform .2s ease;
+  }
+  
+  .card-info_websiteUI {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform .2s ease, opacity .2s ease;
+  }
+  
+  /*Image*/
+  .card-avatar_websiteUI {
+    --size: 60px;
+    background-size: cover;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    transition: transform .2s ease;
+    margin-bottom: 1rem;
+  }
+  
+  
+  /*Card footer*/
+  .card-social_websiteUI {
+    transform: translateY(200%);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    position: relative;
+    top: -1.8em;;
+    right: 1.7em;;
+    transition: transform 1.2s ease, opacity .2s ease;
+  }
+  
+  .card-social__item_websiteUI {
+    list-style: none;
+  }
+
+  /*Card footer*/
+  .profilePic1{
+    height: 20%;
+    display: inline;
+    border-radius: 50%;
+    margin: 1px;
+    position: relative;
+    top: 1em;;
+    z-index: 1;
+  }
+  .profilePic2{
+    height: 16%;
+    display: inline;
+    border-radius: 50%;
+    margin: 1px;
+    position: absolute;
+    top: 12.2em;;
+    left: 8em;
+    z-index: 2;
+  }
+  .profilePic3{
+    height: 17%;
+    display: inline;
+    border-radius: 50%;
+    margin: 1px;
+    position: absolute;
+    top: 12.2em;;
+    left: 9.6em;
+    z-index: 2;
+  }
+  
+  .card-social__item_websiteUI svg {
+    display: block;
+    height: 18px;
+    width: 18px;
+    fill: #181313;
+    cursor: pointer;
+    transition: fill 0.2s ease ,transform 0.2s ease;
+  }
+  
+  /*Text*/
+  .card-title_websiteUI {
+    color: #333;
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 2rem;
+  }
+  
+  .card-subtitle_websiteUI {
+    color: #100707;
+    font-size: 0.8em;
+  }
+  
+  /*Hover*/
+
+  
+  .card_websiteUI:hover {
+    box-shadow: 0 8px 50px #23232333;
+  }
+  
+  .card_websiteUI:hover .card-info_websiteUI {
+    transform: translateY(-5%);
+  }
+  
+  .card_websiteUI:hover .card-social_websiteUI {
+    transform: translateY(180%);
+    opacity: 1;
+  }
+  
+  .card-social__item_websiteUI svg:hover {
+    fill: #232323;
+    transform: scale(1.1);
+  }
+  
+  .card-avatar_websiteUI:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Airbnb */
+  .card-airbnb {
+    position: relative;
+    width: 200px;
+    height: 250px;
+    border-radius: 14px;
+    z-index: 1111;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 20px 20px 60px #bebebe1b, -20px -20px 60px #ffffff;
+  }
+  
+  .bg-airbnb {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 190px;
+    height: 240px;
+    z-index: 2;
+    background: rgba(255, 255, 255, .95);
+    backdrop-filter: blur(24px);
+    border-radius: 10px;
+    overflow: hidden;
+    outline: 2px solid white;
+  }
+  
+  .blob-airbnb {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #6ba4ee;
+    opacity: 1;
+    filter: blur(12px);
+    animation: blob-bounce 5s infinite ease;
+  }
+  
+  @keyframes blob-bounce {
+    0% {
+      transform: translate(-100%, -100%) translate3d(0, 0, 0);
+    }
+  
+    25% {
+      transform: translate(-100%, -100%) translate3d(100%, 0, 0);
+    }
+  
+    50% {
+      transform: translate(-100%, -100%) translate3d(100%, 100%, 0);
+    }
+  
+    75% {
+      transform: translate(-100%, -100%) translate3d(0, 100%, 0);
+    }
+  
+    100% {
+      transform: translate(-100%, -100%) translate3d(0, 0, 0);
+    }
+  }
+  
+
+  /*  Card Jimmi Hendrix  */
+  .card-jimmi {
+    margin-top: 30%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+  }
+  .card-img-top {
+    border-radius: 10px 10px 0 0;
+    
+  }
+
+  .components-card{
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+  }
+  .text-built-tobeCustomized{
+    margin-left: 2.2em;
+    font-family: quicksand;
+  }
+
+    /*  Card Airbnb  */
+
+  .airbnb-logo-card{
+    height: 3em;
+    position: absolute;
+    left: 3.2em;
+    top: 3em;
+  }
+  
+
+  /* Stars */
+  .rating {
+    display: inline-block;
+    position: absolute;
+    top: 7em;
+    left: 3.6em;
+  }
+  
+  .rating input {
+    display: none;
+  }
+  
+  .rating label {
+    float: right;
+    cursor: pointer;
+    color: #ccc;
+    transition: color 0.3s;
+  }
+  
+  .rating label:before {
+    content: '\2605';
+    font-size: 20px;
+  }
+  
+  .rating input:checked ~ label,
+  .rating label:hover,
+  .rating label:hover ~ label {
+    color: #b9e8ff;
+    transition: color 0.3s;
+  }
+  
+  /* 4.95 out of 5 stars */
+
+  .text-airbnb-card{
+    position: absolute;
+    top: 9em;
+    left: 2.6em;
+    font-family: 'Roboto', sans-serif;;
+
+  }
+  .badge-blue {
+    color: #fff; /* Texto del badge */
+    font-size: 15px;
+    font-family: poppins;
+    background-color: #28a9ff; /* Fondo del badge */
+    border-radius: 20px; /* Bordes redondeados para el badge */
+    padding: 0.5rem 0.75rem; /* Espaciado para el badge */
+  }
